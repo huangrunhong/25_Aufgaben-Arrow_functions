@@ -17,9 +17,9 @@ summe.textContent = summeFunction(2, 3);
 const multi = document.querySelector("#multi");
 
 const multiFunction = (x, y) => {
-  return x * y;
+  return window.alert(x * y);
 };
-multi.textContent = multiFunction(2, 3);
+multiFunction(2, 3);
 
 // Typ checken
 const typeCheck = document.querySelector("#typeCheck");
@@ -35,3 +35,9 @@ let a = [0, 1];
 
 typeCheck.textContent =
   type(i) + ", " + type(j) + ", " + type(k) + ", " + type(l) + ", " + type(a);
+
+console.log(i);
+console.log(j);
+console.log(k);
+console.log(l);
+console.log(a);
